@@ -1,6 +1,6 @@
 //unit tests to ensure that adding a task correctly increases the array length
 
-const { task, addTask } = require('/home/daughter/Moringa/JavaScript_Learning/Module2/ClassGroupWork/taskFlow.js');
+const { task, addTask } = import('/home/daughter/Moringa/JavaScript_Learning/Module2/ClassGroupWork/taskFlow.js');
 
 describe("addTask", () => {
   beforeEach(() => {
